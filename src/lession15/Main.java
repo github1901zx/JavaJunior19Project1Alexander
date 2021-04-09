@@ -21,7 +21,7 @@ public class Main {
         receptBorsh.addIngridient("Meat",2);
         receptBorsh.addIngridient("Grusha",6);
         receptBorsh.addIngridient("Sliva",2);
-        receptBorsh.addIngridient("Limon",2);
+        receptBorsh.addIngridient("Limon",44);
 
         receptBorsh.printAllIngridient();
 
