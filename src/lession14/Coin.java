@@ -1,6 +1,6 @@
 package lession14;
 
-public class Coin {
+public class Coin implements Comparable<Coin> {
 
     private double diametr;
     private int year;
@@ -68,5 +68,16 @@ public class Coin {
         result = 31 * result + year;
         result = 31 * result + nominal;
         return result;
+    }
+
+    @Override
+    public int compareTo(Coin o) {
+        if(this.year != o.year){
+            return this.year - o.year;
+        }
+        if(this.nominal != o.nominal){
+            return this.nominal - o.nominal;
+        }
+        return Double.compare(this.diametr, o.diametr);
     }
 }

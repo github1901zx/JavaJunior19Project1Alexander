@@ -1,6 +1,5 @@
 package homework.lesson;
 
-
 public class HomeWorkFractionMain {
     public static void main(String[] args) {
 
@@ -14,7 +13,7 @@ public class HomeWorkFractionMain {
         HomeWorkFraction fractA = new HomeWorkFraction(1, 1, 2);
         HomeWorkFraction fractB = new HomeWorkFraction(1, 3);
 
-        HomeWorkFraction resultSum = HomeWorkFractionCalculator.sumFraction(fractA, fractB);
+            HomeWorkFraction resultSum = HomeWorkFractionCalculator.sumFraction(fractA,fractB);
 
         resultSum.printFraction();
 

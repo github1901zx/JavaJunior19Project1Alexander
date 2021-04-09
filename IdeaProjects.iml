@@ -17,5 +17,15 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="commons-io-2.8.0-javadoc" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Program Files/Java/lib/commons-io-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

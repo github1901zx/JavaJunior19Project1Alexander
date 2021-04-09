@@ -1,7 +1,9 @@
 package lession14;
 
 
+import java.util.Comparator;
 import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
 public class Main4 {
     public static void main(String[] args) {
@@ -12,7 +14,7 @@ public class Main4 {
         Coin coin4 = new Coin(4.7,2002,2);
         Coin coin5 = new Coin(5.6,2003,3);
 
-        LinkedHashSet<Coin> coins = new LinkedHashSet<>();
+        TreeSet<Coin> coins = new TreeSet<>();
 
         coins.add(coin1);
         coins.add(coin2);

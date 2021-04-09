@@ -27,7 +27,7 @@ public class Standings {
     }
 
     public void teamsAddPoints(FootballTeam teamName) {
-        teams.replace(teamName, +1);
+        teams.replace(teamName, teams.get(teamName).intValue()+1);
     }
 
     public String getNameStandings() {

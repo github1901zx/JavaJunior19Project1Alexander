@@ -8,9 +8,9 @@ public class Main2 {
         numFr.printFraction();
         numFr1.printFraction();
 
-        Fraction resultAdd = CalculatorFraction.sumFraction(numFr,numFr1);
+//        Fraction resultAdd = CalculatorFraction.sumFraction(numFr,numFr1);
 
-        resultAdd.printFraction();
+//        resultAdd.printFraction();
 
     }
 }

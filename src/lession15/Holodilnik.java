@@ -54,9 +54,6 @@ public class Holodilnik {
             }
         }
 
-        if (canCock) {
-            return;
-        }
 
         for (String ingrid : nameRecept.getIngridients().keySet()) {
             if (products.get(ingrid) < nameRecept.getIngridients().get(ingrid)) {

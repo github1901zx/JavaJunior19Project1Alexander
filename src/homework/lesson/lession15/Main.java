@@ -10,7 +10,7 @@ public class Main {
 
         Standings standingFifa = new Standings("Fifa");
 
-        standingFifa.addTeam(cska, 0);
+        standingFifa.addTeam(cska, 2);
         standingFifa.addTeam(dinamo, 7);
         standingFifa.addTeam(lokomotiv, 5);
         standingFifa.addTeam(spartak, 6);

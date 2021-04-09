@@ -1,4 +1,4 @@
-package lesson1;
+package lession1;
 
 public class MyFistProject {
     public static void main(String[] args) {

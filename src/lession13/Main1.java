@@ -9,33 +9,74 @@ public class Main1 {
 
         Matrix matrix = new Matrix(5, 5);
         Matrix matrix1 = new Matrix(5, 5);
-        Matrix matrix2 = new Matrix(4, 4);
+        Matrix matrix2 = new Matrix(3, 3);
 
 
-//        matrix2.setValueAt(0, 0, 1);
-//        matrix2.setValueAt(0, 1, 2);
-//        matrix2.setValueAt(0, 2, 6);
-//        matrix2.setValueAt(1, 0, 4);
-//        matrix2.setValueAt(1, 1, 3);
-//        matrix2.setValueAt(1, 2, -1);
-//        matrix2.setValueAt(2, 0, 2);
-//        matrix2.setValueAt(2, 1, -2);
-//        matrix2.setValueAt(2, 2, 5);
-
-        matrix2.setValueAt(0, 0, -1);
+        matrix2.setValueAt(0, 0, 1);
         matrix2.setValueAt(0, 1, 2);
-        matrix2.setValueAt(0, 2, -5);
+        matrix2.setValueAt(0, 2, 6);
         matrix2.setValueAt(1, 0, 4);
-        matrix2.setValueAt(1, 1, -1);
-        matrix2.setValueAt(1, 2, 3);
-        matrix2.setValueAt(2, 0, 3);
-        matrix2.setValueAt(2, 1, 0);
-        matrix2.setValueAt(2, 2, -6);
+        matrix2.setValueAt(1, 1, 3);
+        matrix2.setValueAt(1, 2, -1);
+        matrix2.setValueAt(2, 0, 2);
+        matrix2.setValueAt(2, 1, -2);
+        matrix2.setValueAt(2, 2, 5);
+
+//        matrix2.setValueAt(0, 0, -1);
+//        matrix2.setValueAt(0, 1, 2);
+//        matrix2.setValueAt(0, 2, -5);
+//        matrix2.setValueAt(1, 0, 4);
+//        matrix2.setValueAt(1, 1, -1);
+//        matrix2.setValueAt(1, 2, 3);
+//        matrix2.setValueAt(2, 0, 3);
+//        matrix2.setValueAt(2, 1, 0);
+//        matrix2.setValueAt(2, 2, -6);
 
 
 
         matrix.fillMatrix(1);
         matrix1.fillMatrix(2);
+
+
+        try {
+            matrix.getValueAt(-1,0);
+        }catch (IndexOutOfBoundsException e){
+            System.out.println(e.getMessage());
+        }
+
+        try{
+            matrix1.setValueAt(-1,1,0);
+        }catch (IndexOutOfBoundsException e){
+            System.out.println(e.getMessage());
+        }
+
+        try{
+            matrix1.add(matrix2);
+        }catch (NullPointerException e){
+            System.out.println(e.getMessage());
+        }catch (IllegalArgumentException e){
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            matrix1.sub(matrix2);
+        }catch (IllegalArgumentException e){
+            System.out.println(e.getMessage());
+        }catch (NullPointerException e){
+            System.out.println(e.getMessage());
+        }
+
+        try{
+            matrix1.mul(matrix2);
+        }catch (IllegalArgumentException e){
+            System.out.println(e.getMessage());
+        }catch (NullPointerException e){
+            System.out.println(e.getMessage());
+        }
+
+
+
+
 
 
         System.out.println("----------isIdentityMatrix");

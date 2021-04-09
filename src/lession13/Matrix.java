@@ -20,16 +20,35 @@ public class Matrix implements IMatrix {
 
     @Override
     public double getValueAt(int rowIndex, int colIndex) throws IndexOutOfBoundsException {
+
+        if (rowIndex < 0 || colIndex < 0 || rowIndex >= getRows() || colIndex >= getColumns()) {
+            throw new IndexOutOfBoundsException("индекс строки меньше нуля или больше (или равно) количества строк матрицы" +
+                    "или индекс столбца меньше нуля или больше (или равно) количества столбцов матрицы");
+        }
         return matrix[rowIndex][colIndex];
     }
 
     @Override
     public void setValueAt(int rowIndex, int colIndex, double value) throws IndexOutOfBoundsException {
+
+        if (rowIndex < 0 || colIndex < 0 || rowIndex >= getRows() || colIndex >= getColumns()) {
+            throw new IndexOutOfBoundsException("индекс строки меньше нуля или больше (или равно) количества строк матрицы" +
+                    "или индекс столбца меньше нуля или больше (или равно) количества столбцов матрицы");
+        }
         matrix[rowIndex][colIndex] = value;
     }
 
     @Override
     public IMatrix add(IMatrix otherMatrix) throws IllegalArgumentException, NullPointerException {
+
+        if (otherMatrix == null) {
+            throw new NullPointerException("Второй элемент не может быть пустым");
+        }
+
+        if(this.matrix.length != otherMatrix.getRows() || this.matrix[0].length != otherMatrix.getColumns()){
+            throw new IllegalArgumentException("Матрици не равны");
+        }
+
 
         Matrix mtr = new Matrix(getRows(), getColumns());
 
@@ -44,6 +63,14 @@ public class Matrix implements IMatrix {
     @Override
     public IMatrix sub(IMatrix otherMatrix) throws IllegalArgumentException, NullPointerException {
 
+        if(this.matrix.length != otherMatrix.getRows() || this.matrix[0].length != otherMatrix.getColumns()){
+            throw new IllegalArgumentException("Матрици не равны");
+        }
+
+        if(otherMatrix == null){
+            throw new NullPointerException("Второй элемент не может быть пустым");
+        }
+
         Matrix mtr = new Matrix(getRows(), getColumns());
 
         for (int i = 0; i < getRows(); i++) {
@@ -57,6 +84,14 @@ public class Matrix implements IMatrix {
 
     @Override
     public IMatrix mul(IMatrix otherMatrix) throws IllegalArgumentException, NullPointerException {
+
+        if(this.matrix.length != otherMatrix.getRows() || this.matrix[0].length != otherMatrix.getColumns()){
+            throw new IllegalArgumentException("Матрици не равны");
+        }
+
+        if(otherMatrix == null){
+            throw new NullPointerException("Второй элемент не может быть пустым");
+        }
 
         Matrix mtr = new Matrix(getRows(), getColumns());
 
