@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="847aef8e-0fb2-448f-adb3-e494d2e6277c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/commons_io_2_8_0_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lession16/ComparatorStringReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lession16/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lession18/1234.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lession18/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lession18/CopyFileWithsJava7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdeaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/lesson/lession15/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/lesson/lession15/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/lesson/lession15/Standings.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/lesson/lession15/Standings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lession13/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/lession13/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lession13/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/lession13/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lession14/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lession14/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lession14/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/lession14/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lession15/Holodilnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/lession15/Holodilnik.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1s7g8OHDgL8bbNIoKiG9lTdDR4P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="847aef8e-0fb2-448f-adb3-e494d2e6277c" name="Default Changelist" comment="" />
+      <created>1620228882174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620228882174</updated>
+      <workItem from="1620228883424" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
