@@ -1,8 +1,6 @@
 package practic;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
+import java.util.*;
 
 public class CollectionMetods {
     public static void main(String[] args) {
@@ -43,5 +41,15 @@ public class CollectionMetods {
         for (Integer i :hs1.keySet()) {
             System.out.println(hs1.get(i));
         }
+
+//
+
+
     }
+
+//    public static Collection<Object> removeDups(Collection<Object> collection){
+//        HashSet<Object> hashSet = new HashSet<>();
+//        hashSet.addAll(collection);
+//        return hashSet;
+//    }
 }
