@@ -42,7 +42,12 @@ public class CollectionMetods {
             System.out.println(hs1.get(i));
         }
 
-//
+//        arrayListFist.add(0);
+//        System.out.println("------------------");
+//        ArrayList<Object> as = new ArrayList<>(removeDups(arrayListFist));
+//        for (Object q:as) {
+//            System.out.print(q);
+//        }
 
 
     }
