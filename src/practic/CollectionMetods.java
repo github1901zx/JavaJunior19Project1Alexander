@@ -48,8 +48,7 @@ public class CollectionMetods {
 //        for (Object q:as) {
 //            System.out.print(q);
 //        }
-
-
+        
     }
 
 //    public static Collection<Object> removeDups(Collection<Object> collection){
